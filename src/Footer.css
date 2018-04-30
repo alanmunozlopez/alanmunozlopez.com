@@ -1,0 +1,12 @@
+.Footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.Footer-contact a {
+    font-size: 18px;
+    color: #74adef;
+}
