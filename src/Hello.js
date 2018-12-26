@@ -3,8 +3,13 @@ import './Hello.css';
 import image from './assets/images/wow_react.png';
 import macImage from './assets/images/mac.png';
 
+import Christmas from './Christmas';
+import Snow from './Snow';
+
 const Hello = () => (
   <div className="Hello">
+    <Christmas />
+    <Snow />
     <div className="Hello-presentation">
       <div className="Hello-name">
         <h2 className="color--white"> Hi, I'm Alan Munoz </h2>
