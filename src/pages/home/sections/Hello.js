@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import './Hello.css';
-import image from './assets/images/wow_react.png';
-import macImage from './assets/images/mac.png';
+import React from 'react';
 
-import Christmas from './Christmas';
-import Snow from './Snow';
+import './Hello.css';
+
+import macImage from '../../../assets/images/mac.png';
+
+import Christmas from '../components/Christmas';
+import Snow from '../components/Snow';
 
 const Hello = () => (
   <div className="Hello">

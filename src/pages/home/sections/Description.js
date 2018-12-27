@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+
 import './Description.css';
-import alanImage from './assets/images/alan.png';
-import logoTwitter from './assets/images/twitter.jpg';
-import logoPlatzi from './assets/images/platzi.jpg';
-import logoGithub from './assets/images/github.png';
+
+import alanImage from '../../../assets/images/alan.png';
+import logoTwitter from '../../../assets/images/twitter.jpg';
+import logoPlatzi from '../../../assets/images/platzi.jpg';
+import logoGithub from '../../../assets/images/github.png';
 
 
 const Description = () => (
@@ -21,13 +23,13 @@ const Description = () => (
         </p>
       </div>
       <div className="Description-social-networks">
-        <a href="https://twitter.com/alanmunozlopez" target="_blank">
+        <a rel="noopener noreferrer" href="https://twitter.com/alanmunozlopez" target="_blank">
           <img src={logoTwitter} className="Description-social-icons" alt="logo" />
         </a>
-        <a href="https://platzi.com/@alanmunozlopez/" target="_blank">
+        <a rel="noopener noreferrer" href="https://platzi.com/@alanmunozlopez/" target="_blank">
           <img src={logoPlatzi} className="Description-social-icons" alt="logo" />
         </a>
-        <a href="https://github.com/alanmunozlopez" target="_blank">
+        <a rel="noopener noreferrer" href="https://github.com/alanmunozlopez" target="_blank">
           <img src={logoGithub} className="Description-social-icons" alt="logo" />
         </a>
       </div>
