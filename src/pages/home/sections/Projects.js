@@ -12,6 +12,7 @@ import ibexLogo from '../../../assets/images/ibex.jpg';
 
 const Projects = () => (
   <div className='Projects'>
+    <h3> Projects </h3>
     <div className='Projects-cards'>
       <Project
         title='Coopeuch'
