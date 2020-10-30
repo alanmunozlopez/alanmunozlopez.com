@@ -11,6 +11,6 @@ const Header = (props) => (
       <p >Contact</p>
     </div>
   </header>
-)
+);
 
 export default Header;

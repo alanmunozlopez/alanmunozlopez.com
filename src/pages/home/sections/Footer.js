@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => (
   <footer className="Footer">
-    <h1 className="Footer-contact"><a href="mailto:me@alanmunozlopez.com"> me@alanmunozlopez.com</a></h1>
+    <p className="Footer-contact"><a href="mailto:me@alanmunozlopez.com"> me@alanmunozlopez.com</a></p>
   </footer>
 )
 

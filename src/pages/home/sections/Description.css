@@ -10,7 +10,7 @@
     background: #f1f1f1;
     display: grid;
     grid-template-columns: [left-side] minmax(150px, 600px) [mid] minmax(150px, 600px) [right-side];
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     /* grid-gap: 16px; */
     justify-content: center;
   }
@@ -57,9 +57,6 @@
     }
     .Description-about {
       grid-column: left-side / right-side;
-    }
-    .Description-about h3 {
-        margin-top: 0;
     }
     .Description-social-icons {
         width: 100px;

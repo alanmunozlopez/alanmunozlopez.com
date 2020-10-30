@@ -19,21 +19,26 @@ body {
   font-family: 'Andika', sans-serif;
 }
 
-h2 {
+h1 {
   font-family: 'Amatic SC', cursive;
-  font-size: 3em;
+  font-size: 4em;
 }
 
-h3 {
+h2, h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+} 
+
+p {
+  font-size: 1.3em;
+}
+
+p.subtitle {
   font-family: 'Amatic SC', cursive;
   font-size: 2em;
 }
 
-h4 {
+p.Footer-contact {
   font-family: 'Amatic SC', cursive;
-  font-size: 1.2em;
-}
-
-p {
-  font-size: 1.3em;
+  font-size: 3em;
 }
