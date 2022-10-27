@@ -37,7 +37,7 @@ const Projects = () => (
       />
       <Project
           title='Rockwell Automation / Globant'
-          legend='I have worked on IDE based on JS and powered by Electron. Techs: Javascript, Kotlin.'
+          legend='I have worked on one IDE based on JS and powered by Electron. Techs: Javascript, Kotlin.'
           image={rockwellLogo}
       />
       <Project
