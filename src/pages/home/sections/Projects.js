@@ -42,7 +42,7 @@ const Projects = () => (
       />
       <Project
         title='HBO / Globant'
-        legend='Currently I’m working on a big project for HBO. The company has an internal system to administrate the assets for the rest of the platforms where HBO services are present. The main technologies are: AngularJS, Angular2+, Bootstrap, Sass and Karma.'
+        legend='I have worked on a big project for HBO. The company has an internal system to administrate the assets for the rest of the platforms where HBO services are present. The main technologies are: AngularJS, Angular2+, Bootstrap, Sass and Karma.'
         image={hboLogo}
       />
       <Project
